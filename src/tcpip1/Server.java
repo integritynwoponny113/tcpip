@@ -43,7 +43,7 @@ public class Server {
 			e.printStackTrace();
 		} finally {
 			try {
-				br.close();  
+				br.close();    
 				inr.close();
 				in.close();
 				socket.close();
